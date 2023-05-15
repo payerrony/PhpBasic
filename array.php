@@ -37,11 +37,16 @@ $arr = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 $arr2 =['hello','world','sucks'];
 
 
+//$arr2.push("okky");
+
+array_push($arr2,"okky");
+array_pop($arr2);
 
 
-foreach($arr as $key => $value){
 
-    echo "Key-".$key."-Value -".$value;
+foreach($arr2 as $value){
+
+    echo $value;
     echo "<br>";
 }
 
